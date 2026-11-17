@@ -7,6 +7,23 @@ A small, self-hosted live quiz for classrooms, workshops and meetups. Run it on 
 - **Presentation screen on a tldraw canvas.** Live player count, "answered X of N", result bars, and a leaderboard after every question.
 - **Made for up to ~80 players** on one small Node process.
 
+## What it looks like
+
+**Presentation screen** (projector): players scan the QR code, then each question, its results and a leaderboard appear on the screen.
+
+![Lobby with QR code and joined players](docs/screenshots/1-lobby.jpg)
+![A question with live answered count](docs/screenshots/2-question.jpg)
+![Results after closing the question, correct answer marked](docs/screenshots/3-results.jpg)
+![Leaderboard with podium and top 10](docs/screenshots/4-leaderboard.jpg)
+
+**Quiz builder** (`/create`): name the quiz, add questions and options, tap a letter to mark the correct answer.
+
+![Quiz builder form](docs/screenshots/5-builder.jpg)
+
+**On phones**: a player answers (left) and sees their result (middle); the host controls the quiz from their own phone (right).
+
+![Player and host phone screens](docs/screenshots/6-phones.jpg)
+
 ## Quick start
 
 Requires Node 20 or newer.
