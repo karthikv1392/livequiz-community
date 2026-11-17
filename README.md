@@ -1,5 +1,11 @@
 # LiveQuiz Community
 
+[![License: MIT](https://img.shields.io/github/license/karthikv1392/livequiz-community)](LICENSE)
+![Node 20+](https://img.shields.io/badge/node-%3E%3D20-339933?logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/karthikv1392/livequiz-community?style=flat)](https://github.com/karthikv1392/livequiz-community/stargazers)
+![Self-hosted](https://img.shields.io/badge/self--hosted-no%20cloud%20needed-8a6bd1)
+
 A small, self-hosted live quiz for classrooms, workshops and meetups. Run it on your laptop, show the screen on a projector, and let everyone join from their phone by scanning a QR code. No accounts, no database, no cloud service.
 
 - **Build quizzes in a form.** Open `/create`, name the quiz, add questions and options, tap the correct answer, save. The quiz is stored as a plain JSON file.
