@@ -122,4 +122,4 @@ Layout: `app/shared` (pure session engine, quiz format, protocol types), `app/se
 
 Released under the MIT licence (see `LICENSE`).
 
-The presentation screen uses [tldraw](https://tldraw.dev), which has its own licence terms. Check them for your use case (for example commercial use) before you deploy this beyond personal or classroom use.
+The presentation screen is drawn with [tldraw](https://tldraw.dev) ([source](https://github.com/tldraw/tldraw)). **tldraw is not included in this repository.** It is a separate dependency that `npm install` downloads from the npm registry, under tldraw's own licence. Please read their [licence terms](https://tldraw.dev/community/license) and check that your use (for example commercial use) is covered before you deploy this.
